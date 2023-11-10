@@ -7,5 +7,5 @@ build_property.InvariantGlobalization =
 build_property.PlatformNeutralAssembly = 
 build_property.EnforceExtendedAnalyzerRules = 
 build_property._SupportedPlatformList = Linux,macOS,Windows
-build_property.RootNamespace = data_structures
-build_property.ProjectDir = C:\Users\Vincent\Dropbox\My PC (LAPTOP-V8C90KF3)\Desktop\C#\practice\data_structures\
+build_property.RootNamespace = ShowCase
+build_property.ProjectDir = C:\Users\Vincent\Dropbox\My PC (LAPTOP-V8C90KF3)\Desktop\C#\practice\data_structures\ShowCase\

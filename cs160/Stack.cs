@@ -1,7 +1,4 @@
-﻿using System.Collections;
-using System.Xml.Schema;
-
-namespace cs160;
+﻿namespace cs160;
 
 public class Stack<T>
 {   
@@ -70,5 +67,20 @@ public class Stack<T>
     /// <returns>A 32-bit integer on how big the stack is.</returns>
     public Int32 Size() {
         return this.stackList.Count;
+    }
+    
+    /// <summary>
+    /// Convert the stack data structure to a string
+    /// </summary>
+    /// <returns>The converted stack as a string</returns>
+    public override string? ToString() {
+
+        string baseString = "[";
+
+        this.stackList.ForEach(item => {
+            baseString += $" '{item}'";
+        });
+
+        return baseString + " ]";
     }
 }
