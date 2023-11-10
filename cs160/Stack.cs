@@ -68,7 +68,7 @@ public class Stack<T>
     /// Calculates the size of the instance of the class
     /// </summary>
     /// <returns>A 32-bit integer on how big the stack is.</returns>
-    public Int32 size() {
+    public Int32 Size() {
         return this.stackList.Count;
     }
 }
