@@ -78,9 +78,9 @@ public class Stack<T>
         string baseString = "[";
 
         this.stackList.ForEach(item => {
-            baseString += $" '{item}'";
+            baseString += $" '{item}' ";
         });
 
-        return baseString + " ]";
+        return baseString + "]";
     }
 }

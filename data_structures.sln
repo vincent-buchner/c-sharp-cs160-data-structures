@@ -7,6 +7,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "cs160", "cs160\cs160.csproj
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ShowCase", "ShowCase\ShowCase.csproj", "{64D8E9CB-C564-44B7-AEA8-654A2E427F7A}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "cs160Test", "cs160Test\cs160Test.csproj", "{07ED988B-62D3-463C-848E-754CCD165F24}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -24,5 +26,9 @@ Global
 		{64D8E9CB-C564-44B7-AEA8-654A2E427F7A}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{64D8E9CB-C564-44B7-AEA8-654A2E427F7A}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{64D8E9CB-C564-44B7-AEA8-654A2E427F7A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{07ED988B-62D3-463C-848E-754CCD165F24}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{07ED988B-62D3-463C-848E-754CCD165F24}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{07ED988B-62D3-463C-848E-754CCD165F24}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{07ED988B-62D3-463C-848E-754CCD165F24}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 EndGlobal
