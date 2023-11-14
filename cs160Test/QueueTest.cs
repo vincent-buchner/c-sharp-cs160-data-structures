@@ -7,7 +7,7 @@ public class QueueTest
     [TestMethod]
     public void TestNullQueue()
     {
-        cs160.Stack<string> myQueue = new cs160.Stack<string>();
+        cs160.Queue<string> myQueue = new cs160.Queue<string>();
 
         string expected = "[]";
         string? results = myQueue.ToString();
@@ -18,13 +18,13 @@ public class QueueTest
     [TestMethod]
     public void TestAddQueue()
     {
-        cs160.Stack<string> myStack = new cs160.Stack<string>();
-        myStack.Push("aaa");
-        myStack.Push("bbb");
-        myStack.Push("ccc");
+        cs160.Queue<string> myQueue = new cs160.Queue<string>();
+        myQueue.Push("aaa");
+        myQueue.Push("bbb");
+        myQueue.Push("ccc");
 
         string expected = "[ 'aaa'  'bbb'  'ccc' ]";
-        string? results = myStack.ToString();
+        string? results = myQueue.ToString();
 
         Assert.IsTrue(expected == results, $"Results came back false: Expected {expected}; Actual {results}");
     }
@@ -32,19 +32,19 @@ public class QueueTest
     [TestMethod]
     public void TestRemoveQueue()
     {
-        cs160.Stack<string> myStack = new cs160.Stack<string>();
-        myStack.Push("aaa");
-        myStack.Push("bbb");
-        myStack.Push("ccc");
-        myStack.Push("ddd");
-        myStack.Push("eee");
-        myStack.Push("fff");
+        cs160.Queue<string> myQueue = new cs160.Queue<string>();
+        myQueue.Push("aaa");
+        myQueue.Push("bbb");
+        myQueue.Push("ccc");
+        myQueue.Push("ddd");
+        myQueue.Push("eee");
+        myQueue.Push("fff");
 
-        myStack.Pop();
-        myStack.Pop();
+        myQueue.Pop();
+        myQueue.Pop();
 
         string expected = "[ 'ccc'  'ddd'  'eee'  'fff' ]";
-        string? results = myStack.ToString();
+        string? results = myQueue.ToString();
 
         Assert.IsTrue(expected == results, $"Results came back false: Expected {expected}; Actual {results}");
     }
