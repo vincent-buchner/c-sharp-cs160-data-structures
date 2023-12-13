@@ -43,6 +43,6 @@ Through the Luther College CS160 course and their implementation of various data
 - https://code.visualstudio.com/docs/csharp/get-started
 - https://learn.microsoft.com/en-us/dotnet/core/tutorials/with-visual-studio-code?pivots=dotnet-8-0
 - https://learn.microsoft.com/en-us/dotnet/core/testing/unit-testing-with-mstest
-
+- https://youtu.be/2XUQdN-Bi2o?si=2BxUcJfdM35fXXQT
 
 
