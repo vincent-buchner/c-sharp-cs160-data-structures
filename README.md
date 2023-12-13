@@ -44,5 +44,6 @@ Through the Luther College CS160 course and their implementation of various data
 - https://learn.microsoft.com/en-us/dotnet/core/tutorials/with-visual-studio-code?pivots=dotnet-8-0
 - https://learn.microsoft.com/en-us/dotnet/core/testing/unit-testing-with-mstest
 - https://youtu.be/2XUQdN-Bi2o?si=2BxUcJfdM35fXXQT
+- https://youtu.be/cHGaQz0E7AU?si=NuB6KGqgWPfaK0y9
 
 
