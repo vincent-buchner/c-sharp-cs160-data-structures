@@ -39,4 +39,10 @@ Graphs are versatile data structures used to represent relationships between ent
 Through the Luther College CS160 course and their implementation of various data structures in C#, I have gained valuable insights into the world of algorithms and data manipulation. By building these fundamental structures from scratch, they deepened their understanding of C# and its applications in solving complex problems. This hands-on experience provided a solid foundation for their future endeavors in algorithm design and programming.
 
 
+### Useful Links and Resources
+- https://code.visualstudio.com/docs/csharp/get-started
+- https://learn.microsoft.com/en-us/dotnet/core/tutorials/with-visual-studio-code?pivots=dotnet-8-0
+- https://learn.microsoft.com/en-us/dotnet/core/testing/unit-testing-with-mstest
+
+
 

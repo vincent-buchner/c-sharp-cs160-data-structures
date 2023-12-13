@@ -20,7 +20,7 @@ public class Deque<T> {
     }
 
     /// <summary>
-    /// Pushes an item into the front of the queue
+    /// Pushes an item into the front of the deque
     /// </summary>
     /// <param name="item">The item to be added</param>
     public void PushFront(T item) {
@@ -28,7 +28,7 @@ public class Deque<T> {
     }
 
     /// <summary>
-    /// Pushes an item into the front of the queue
+    /// Pushes an item into the back of the deque
     /// </summary>
     /// <param name="item">The item to be added</param>
     public void PushBack(T item) {
@@ -36,7 +36,7 @@ public class Deque<T> {
     }
 
     /// <summary>
-    /// Pops an item from the front of the queue
+    /// Pops an item from the front of the deque
     /// </summary>
     public T PopFront() {
         
@@ -48,7 +48,7 @@ public class Deque<T> {
     }
 
     /// <summary>
-    /// Pops an item from the back of the queue
+    /// Pops an item from the back of the deque
     /// </summary>
     public T PopBack() {
         
