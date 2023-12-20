@@ -18,6 +18,37 @@ public class HashTable<K, V>
     }
 
     /// <summary>
+    /// Checks to see if the given key is inside the table.
+    /// </summary>
+    /// <param name="key">The given key to search for</param>
+    /// <returns>A boolean value on whether or not the key was found. If true, the table contains the key.</returns>
+    /// <exception cref="Exception">Throws an error if a null key is given</exception>
+    public bool Contains(K key) {
+
+        // If the key is null, throw an error
+        if (key == null) throw new Exception("Can not hash a null key.");
+
+        // Hash the key to get an index of the bucket
+        int hash = HashingFunction(key);
+
+        // Get the bucket with the hash index
+        List<KeyValuePair<K, V>> bucket = buckets[hash];
+
+        // If the bucket is null, then there's nothing to get
+        if (bucket == null) return false;
+        
+        // For each item in the bucket, check to see if it's the item we're looking for
+        foreach (KeyValuePair<K, V> item in bucket)
+        {
+            // If it's the item we're looking for return true
+           if (item.Key.Equals(key)) return true;
+        }
+
+        // Otherwise, if the key was never found return false
+        return false;
+    }
+
+    /// <summary>
     /// Gets all the key values as a list
     /// </summary>
     /// <returns>A list of key/value pairs</returns>

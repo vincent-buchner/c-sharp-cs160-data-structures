@@ -53,6 +53,14 @@ public class HashTableTest
     }
 
     [TestMethod]
+    public void TestContainHashTable(){
+        Assert.IsTrue(testHashTable1.Contains("aaa"));
+        Assert.IsTrue(testHashTable1.Contains("bbb"));
+        Assert.IsTrue(testHashTable1.Contains("ccc"));
+        Assert.IsFalse(testHashTable1.Contains("zzz"));
+    }
+
+    [TestMethod]
     public void TestAddToHashTable()
     {
         cs160.HashTable<string, int> myHashTable = new cs160.HashTable<string, int>(17);
