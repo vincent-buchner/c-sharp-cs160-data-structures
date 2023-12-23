@@ -34,6 +34,17 @@ K-ary trees are hierarchical data structures with nodes having a maximum of k ch
 
 Graphs are versatile data structures used to represent relationships between entities. I implemented graph structures in C#, understanding different graph representations (e.g., adjacency matrix, adjacency list) and common graph algorithms such as breadth-first search (BFS) and depth-first search (DFS).
 
+#### <i>Additional Data Structures</i>
+These are some additional algorithms/data structures that may be interesting to look at (or showoff to your professor). At the moment, there are no implementations of these data structures in this repo, but I'd be more than happy to accept pull requests.
+- Map Reducer
+- Boyer Moore
+- Dijkstra's Algorithm
+- Wave Function Collapse
+- A* Search
+- Red-Black Trees
+- Priority Queue
+
+
 ## Conclusion
 
 Through the Luther College CS160 course and their implementation of various data structures in C#, I have gained valuable insights into the world of algorithms and data manipulation. By building these fundamental structures from scratch, they deepened their understanding of C# and its applications in solving complex problems. This hands-on experience provided a solid foundation for their future endeavors in algorithm design and programming.
